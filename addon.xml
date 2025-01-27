@@ -1,0 +1,16 @@
+<addon id="plugin.library.books" version="0.0.1" name="Library Books" provider-name="YourName">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Gestisci la tua libreria di libri</summary>
+        <description>Un addon per visualizzare, gestire e cercare i libri della tua libreria.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>resources/art/icon.png</icon>
+        </assets>
+    </extension>
+</addon>
